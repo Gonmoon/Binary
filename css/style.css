@@ -1,5 +1,8 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;
+
+400;700;900&display=swap");
 @font-face {
   font-family: "MyriadPro";
   src: url("fonts/MyriadPro-Cond.eot");
@@ -7,31 +10,41 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /*Обнуление*/
+
 * {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -42,7 +55,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
 }
 
@@ -59,7 +74,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -75,12 +91,18 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
 
 /*--------------------*/
+
 body {
   font-family: "Lato";
   cursor: default;
@@ -112,6 +134,7 @@ body {
 .header {
   background: url("../img/bg_header.png") center no-repeat fixed;
 }
+
 .header__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,12 +147,15 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .header__logo {
   margin: 160px 0 100px 0;
 }
+
 .header__button {
   margin: 200px 0 60px 0;
 }
+
 .header__arrow {
   background: url("../img/arrow_down.png") center no-repeat;
   padding: 10px;
@@ -148,15 +174,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .title__text {
   font-size: 34px;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.16em;
 }
+
 .title__text_white {
   color: #fff;
 }
+
 .title__info {
   margin: 15px 0 0 0;
   letter-spacing: 0.16em;
@@ -164,12 +193,14 @@ body {
   text-transform: none;
   color: #fff;
 }
+
 .title__line {
   margin: 40px 0 0 0;
   height: 1px;
   width: 81px;
   background-color: #000;
 }
+
 .title__line_white {
   margin: 45px 0 0 0;
   height: 2px;
@@ -185,6 +216,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .button__link {
   display: inline-block;
   width: 182px;
@@ -198,18 +230,23 @@ body {
   line-height: 1.2px;
   letter-spacing: 0.06em;
   -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
   transition: all 300ms;
 }
+
 .button__link:hover {
   border: 1px solid #444;
   color: #444;
 }
+
 .button__link_white {
   border: 1px solid #fff;
   color: #fff;
   -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
   transition: all 300ms;
 }
+
 .button__link_white:hover {
   border: 1px solid #bbb;
   color: #bbb;
@@ -218,6 +255,7 @@ body {
 .about {
   margin: 0 0 95px 0;
 }
+
 .about__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -227,9 +265,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 .about__nav {
   margin: 0 0 130px 0;
 }
+
 .about__text {
   margin: 25px 0;
   text-align: center;
@@ -238,6 +278,7 @@ body {
   font-weight: 300;
   color: #868585;
 }
+
 .about__row-colum {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,6 +288,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -255,19 +297,23 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .nav li {
   padding: 25px;
 }
+
 .nav__point a {
   text-transform: uppercase;
   font-size: 15px;
   line-height: 1.2px;
   color: #3c3c3c;
 }
+
 .nav__point a:hover {
   font-weight: 700;
   color: #ada074;
 }
+
 .nav__point_first a {
   font-weight: 700;
   color: #ada074;
@@ -287,6 +333,7 @@ body {
           align-items: center;
   margin: 50px 0;
 }
+
 .colum__image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,6 +349,7 @@ body {
   border: 1px solid #f0f0f0;
   border-radius: 50%;
 }
+
 .colum__title {
   margin: 40px 0;
   text-transform: uppercase;
@@ -309,9 +357,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.16em;
 }
+
 .colum__title_low:first-letter {
   text-transform: lowercase;
 }
+
 .colum__text {
   text-align: center;
   font-size: 14px;
@@ -324,12 +374,15 @@ body {
   padding: 107px 0 0 0;
   background-color: #f3f3f3;
 }
+
 .portfolio__title {
   margin: 0 0 35px 0;
 }
+
 .portfolio__nav {
   margin: 0 0 100px 0;
 }
+
 .portfolio__album {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -340,6 +393,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .portfolio__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -348,10 +402,12 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .portfolio__image {
   width: 538px;
   height: 365px;
 }
+
 .portfolio__button {
   background-color: #f3f3f3;
   padding: 50px 0;
@@ -360,6 +416,7 @@ body {
 .image {
   margin: 10px;
 }
+
 .image img {
   width: 100%;
 }
@@ -369,6 +426,7 @@ body {
   height: 400px;
   background: url("../img/bg_companu.png") 50% 100% no-repeat;
 }
+
 .our-partners__title {
   text-align: center;
   font-size: 30.4px;
@@ -378,6 +436,7 @@ body {
   color: #fff;
   padding: 70px 0;
 }
+
 .our-partners__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -385,18 +444,23 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
 .our-partners__logo {
   -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
   transition: all 300ms;
 }
+
 .our-partners__logo:hover {
   -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
           transform: scale(1.2);
 }
 
 .contact__title {
   margin: 30px 0 100px 0;
 }
+
 .contact__body {
   margin: 40px 0;
   padding: 0 30px;
@@ -406,6 +470,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
 .contact__row-input {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -415,6 +480,7 @@ body {
           justify-content: space-between;
   margin: 0 0 75px 0;
 }
+
 .contact__input-column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -425,15 +491,19 @@ body {
           flex-direction: column;
   padding: 0 50px 0 0;
 }
+
 .contact__title-input {
   margin: 0 0 15px 0;
 }
-.contact__name, .contact__mail {
+
+.contact__name,
+.contact__mail {
   background-color: #f8f7f7;
   border-top: 1px solid #000;
   width: 161px;
   height: 35px;
 }
+
 .contact__message {
   background-color: #f8f7f7;
   border-top: 1px solid #000;
@@ -441,19 +511,23 @@ body {
   height: 118px;
   resize: none;
 }
+
 .contact__info {
   padding: 0 100px 0 0;
   font-size: 14px;
   line-height: 26px;
   font-weight: 300;
 }
+
 .contact__text {
   margin: 0 0 30px 0;
 }
+
 .contact__user {
   font-weight: 700;
   margin: 0 0 20px 0;
 }
+
 .contact__facebook {
   display: inline-block;
   margin: 0px 10px 5px 0;
@@ -463,10 +537,12 @@ body {
   border: 2px solid #000;
   border-radius: 50%;
 }
+
 .contact__facebook:hover {
   -webkit-box-shadow: inset 0 0 3px #000;
           box-shadow: inset 0 0 3px #000;
 }
+
 .contact__insta {
   display: inline-block;
   margin: 0 0 5px 0;
@@ -476,17 +552,21 @@ body {
   border: 2px solid #000;
   border-radius: 50%;
 }
+
 .contact__insta:hover {
   -webkit-box-shadow: inset 0 0 3px #000;
           box-shadow: inset 0 0 3px #000;
 }
+
 .contact__mail-text span {
   font-weight: 700;
 }
+
 .contact__button {
   text-align: center;
   margin: 40px 0 100px 0;
 }
+
 .contact__button button {
   background-color: #fff;
   font-size: 14px;
@@ -496,6 +576,7 @@ body {
   letter-spacing: 0.06em;
   color: #000;
 }
+
 .contact__button button:hover {
   text-shadow: 0 0 8px #000;
 }
@@ -513,6 +594,7 @@ body {
   height: 275px;
   background-color: #3c3c3c;
 }
+
 .footer__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -525,21 +607,26 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .footer__logo {
   padding: 40px 0;
 }
+
 .footer__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 30px 0;
 }
-.footer__nav li a, .footer__text {
+
+.footer__nav li a,
+.footer__text {
   font-size: 14px;
   line-height: 1.2;
   color: #a4a4a4;
   padding: 0 10px;
 }
+
 .footer__text {
   font-family: "MyriadPro";
   color: #6c6c6c;
